@@ -55,11 +55,13 @@ Pelo tempo reduzido para o desafio, ficou uma lista de tarefas a se realizar map
   - [ ] adicionar um middleware de rateLimit para adicionar uma camada de segurança contra ataque DDos e requisições abusivas
   - [ ] adicionar controller de cashback e service de calculo
   - [ ] Terminar o swagger para documentação da api
+  - [ ] Implementar banco de cache como Redis, para melhor gerenciamento de requisição
 
 - FRONTEND; 
   - [ ] adicionar coberturar de teste com jest e react testing library; 
   - [ ] adicionar dados dinamicos na table de cashback - facilmente implementada com material ui.
   - [ ] ativar funcionalidade de mudança de status das requisições de novos produtos
+  - [ ] criar componentes reutilizáveis 
 
 
 ### Observações
@@ -75,7 +77,7 @@ Caso opte o uso com docker, aguarde um tempo pois a porta 3000 subirá apesar da
 
 - Historico de commit do github,o projeto foi feito todo numa "tacada" com pouco tempo para registrar o processo normal de um desenvolvimento...é melhor deixar com historico para acompanhamento do desenvolvimento e boas praticas de git.
 
-- Para melhor entendimento das rotas, deixei um arquivo chamado http no backend. Dentro do roadmap sugiro a criação da documentação da api via SWAGGER ou criação de uma biblioteca de requisições de testes de do Postman.
+- Para melhor entendimento das rotas, deixei um arquivo chamado http no backend. Dentro do roadmap sugiro a criação da documentação da api via SWAGGER ou criação de uma biblioteca de requisições de testes de do Postman. O arquivo env foi postado, porém não é uma boa pratica...recomendo em produção colocar em um path na azure ou aws, para n ambientes e n maquinas.
 
 ---
 
