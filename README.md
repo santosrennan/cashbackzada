@@ -61,16 +61,16 @@ Pelo tempo reduzido para o desafio, ficou uma lista de tarefas a se realizar map
 
 ### Observações
 
-- Foi criado um dockercompose, para facilitar a instação, porém foi verificado que uma alta demora para subir o frontend e suas dependencias, cerca de 400 segundos. Isso faz com que, o serviço da porta usando docker suba mais rapído do que as dependencias necessária para o react rodar usando yarn.
-Caso opte o uso com docker, aguarde um tempo pois a porta 3000 subirá apesar da demora.
+- Foi criado um dockercompose para colocar a aplicação em container, porém foi verificado que tem uma alta demora para subir o frontend e suas dependencias, cerca de 400 segundos. Isso faz com que, o serviço da porta do container usando docker suba mais rapído do que as dependencias necessária para o react rodar e entrar na porta usando yarn.
+Caso opte o uso com docker, aguarde um tempo pois a porta 3000 subirá apesar da demora, beba um cafézin e acompanhe pelo logg do docker.
 
 - https://github.com/yarnpkg/yarn/issues/1496  (existe um issue aberta sobre o caso até hoje,com a desativação do antivirus se sugere uma pequena melhora )
 
-- Recomendo NPM para o back e Yarn para o Front caso rode de maneira individual, em docker ambos usam Yarn
+- Recomendo NPM para o back e Yarn para o Front caso rode de maneira individual, em docker ambos usam Yarn via script
 
-- Se for subir individualmente certifique que já não tenha o nodemodules, se tiver apague.. se for subir o docker primeiro e depois individualmente, pare o docker e exclua o nodemodules e faça o processo individual
+- Se for subir individualmente certifique que já não tenha o nodemodules, se tiver apague.. se for subir o docker primeiro e depois individualmente, pare o docker e exclua o nodemodules e faça o processo individual. Isso evita conflitos de dependencias e cache.
 
-- Historico de commit do github,o projeto foi feito todo numa "tacada" com pouco tempo para registrar o processo normal de um desenvolvimento...é melhor deixar com historico para acompanhamento do desenvolvimento.
+- Historico de commit do github,o projeto foi feito todo numa "tacada" com pouco tempo para registrar o processo normal de um desenvolvimento...é melhor deixar com historico para acompanhamento do desenvolvimento e boas praticas de git.
 
 ---
 
