@@ -41,7 +41,7 @@
   - [x] criação de um jwt para auth
   - [x] Uso do docker
   - [x] http com REST requests para rodar no vscode usando o pacote Rest Client - facilita o entendimento das rotas do back
-  - [x] Adicionado um serviço de email no cadastro, porém necessário configuração de produção
+  - [x] Adicionado um serviço de envio de email no cadastro, porém necessário configuração de produção
 
 
 ---
