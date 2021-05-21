@@ -10,7 +10,7 @@
 
 <h4 align="center">
 	🚧 O desafio falava de fazer um front-end, porém como não fornecia uma api para o projeto, decidi dedicar o tempo para fazer o front e uma parte para o back-end, o que faz sentido para vaga que estou aplicando =) .  
-  Foram cerca de 14 horas de trabalho para construção de toda plataforma... 🚧
+  Foram cerca de 14 horas de trabalho para construção de toda plataforma, tentei realizar todos requisitos tanto no front quanto no back e deixar uma lista de proximos passos ... 🚧
 </h4>
 
 ---
