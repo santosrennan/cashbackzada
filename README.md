@@ -84,8 +84,8 @@ Caso opte o uso com docker, aguarde um tempo pois a porta 3000 subirá apesar da
 ## 🚀 Como executar o projeto
 
 Este projeto é divido em duas partes:
-1. Backend 
-2. Frontend
+1. Backend - na localhost 3333 ou 4000
+2. Frontend -  na localhost 3000
 
 ----
 
@@ -96,6 +96,7 @@ Este projeto é divido em duas partes:
 Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:
 [Git](https://git-scm.com), [Node.js](https://nodejs.org/en/). 
 Além disto é bom ter um editor para trabalhar com o código como [VSCode](https://code.visualstudio.com/)
+Docker instalado caso queira executar a aplicação no container.
 
 Clone o repositório, utilizando **git clone** ou faça o **download** do repositório.
 
@@ -124,6 +125,8 @@ $ npm start
 
 #### 🧭 Rodando a aplicação web (Frontend) individualmente
 
+
+
 ```bash
 
 # Clone este repositório
@@ -144,6 +147,8 @@ $ yarn start
 
 #### 🧭 Rodando via Dockercompose front e backend por container
 
+💡 Olhe nas observações o primeiro item,ao rodar a primeira vez aguarde o tempo da carga das dependencias no container.
+
 ```bash
 
 # Clone este repositório
@@ -154,7 +159,7 @@ $ git clone git@github.com:santosrennan/cashbackzada.git
 # Execute a aplicação em modo de desenvolvimento
 $ docker compose up -d
 
-# A aplicação será aberta na porta:3000 para o front e 3333 para back --- Aguarde a instalação do yarn install no frontend.. pode demorar um pouco como já falado anteriormente pelas depedencias do yarn .. cerca de 4 a 6 minutos e toda aplicação estará aberta no container
+# A aplicação será aberta na porta:3000 para o front e 3333 para back --- Aguarde a instalação de dependencias pelo script do yarn install no frontend.. pode demorar um pouco como já falado anteriormente pelas depedencias do yarn .. cerca de 4 a 6 minutos e toda aplicação estará aberta no container
 
 ```
 
