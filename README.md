@@ -13,8 +13,7 @@
   Foram cerca de 14 horas de trabalho para construção de toda plataforma... 🚧
 </h4>
 
-
-=================
+---
 
 ## 💻 Sobre o projeto
 
@@ -46,7 +45,7 @@
 
 ## 👨‍💻  TO-DO - ROADMAP
 
-Pelo tempo, ficou uma lista de tarefas a se realizar mapeadas para melhoria já num roadmap:
+Pelo tempo reduzido para o desafio, ficou uma lista de tarefas a se realizar mapeadas para melhoria já num roadmap, que deixaria a plataforma ainda melhor e completa:
 
 - BACKEND; 
   - [ ] separar lógica dos controllers para camada de service, foi iniciado porém não finalizado; 
@@ -56,7 +55,7 @@ Pelo tempo, ficou uma lista de tarefas a se realizar mapeadas para melhoria já 
 
 - FRONTEND; 
   - [ ] adicionar coberturar de teste com jest e react testing library; 
-  - [ ] adicionar dados dinamicos na table de cashback
+  - [ ] adicionar dados dinamicos na table de cashback - facilmente implementada com material ui.
   - [ ] ativar funcionalidade de mudança de status das requisições de novos produtos
 
 
@@ -145,7 +144,10 @@ $ git clone git@github.com:santosrennan/cashbackzada.git
 
 # Vá para a pasta da aplicação onde está o dockercompose
 
-# A aplicação será aberta na porta:3000 para o front e 3333 para back --- Aguarde a instalação do yarn install no frontend.. pode demorar um pouco como já falado
+# Execute a aplicação em modo de desenvolvimento
+$ docker compose up -d
+
+# A aplicação será aberta na porta:3000 para o front e 3333 para back --- Aguarde a instalação do yarn install no frontend.. pode demorar um pouco como já falado anteriormente pelas depedencias do yarn .. cerca de 4 a 6 minutos e toda aplicação estará aberta no container
 
 ```
 
