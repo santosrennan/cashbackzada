@@ -24,11 +24,14 @@
 
 ## ⚙️ Funcionalidades
 
-- [x] Telas; 
+- [x] Front end; 
   - [x] login para informar e-mail e senha; 
   - [x] cadastro de um novo revendedor(a) solicitando Nome completo, CPF, e- mail e senha
   - [x] cadastro de compras onde deverá ser informado o código, valor ,descrição e nome
   - [x] listagem das compras cadastradas exibindo as informações  
+  - [x] Designer responsivo
+  - [x] Uso de localstore e cookie para session com jwt
+  - [x] Consumo de api 
 
 - [x] Backend usando NodeJs e Express:
   - [x] API usando logger com morgan
@@ -71,6 +74,8 @@ Caso opte o uso com docker, aguarde um tempo pois a porta 3000 subirá apesar da
 - Se for subir individualmente certifique que já não tenha o nodemodules, se tiver apague.. se for subir o docker primeiro e depois individualmente, pare o docker e exclua o nodemodules e faça o processo individual. Isso evita conflitos de dependencias e cache.
 
 - Historico de commit do github,o projeto foi feito todo numa "tacada" com pouco tempo para registrar o processo normal de um desenvolvimento...é melhor deixar com historico para acompanhamento do desenvolvimento e boas praticas de git.
+
+- Para melhor entendimento das rotas, deixei um arquivo chamado http no backend. Dentro do roadmap sugiro a criação da documentação da api via SWAGGER ou criação de uma biblioteca de requisições de testes de do Postman.
 
 ---
 
