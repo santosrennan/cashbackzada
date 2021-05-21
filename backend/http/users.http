@@ -1,0 +1,34 @@
+# Criei esses requests REST para quem não quiser instalar o Insomnia ou Postman
+# Para utilizar esses arquivos no VSCODE instale o pacote REST Client
+
+# Listar todas os Users
+GET http://localhost:3333/users
+
+###
+
+# Criar novo User
+POST http://localhost:3333/users
+Content-Type: application/json
+
+{
+	"name": "Teste",
+	"email": "teste@teste.com.br",
+	"whatsapp": "47999999999",
+	"city": "Rio de Janeiro",
+	"uf": "RJ",
+	"password": "123456789"
+}
+
+###
+
+# Lista os casos do User autenticado
+# Use o Cookie que foi enviado como resposta no login
+GET http://localhost:3333/profile
+Cookie: access_token=
+
+###
+
+# Apaga O User logada
+# Use o Cookie que foi enviado como resposta no login
+DELETE http://localhost:3333/users
+Cookie: access_token=

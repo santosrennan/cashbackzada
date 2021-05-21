@@ -1,0 +1,27 @@
+# Criei esses requests REST para quem não quiser instalar o Insomnia ou Postman
+# Para utilizar esses arquivos no VSCODE instale o pacote REST Client
+
+
+# Fazer login
+# Use o Cookie de resposta nas outras requisições que precisarem de Cookie
+POST http://localhost:3333/sessions
+Content-Type: application/json
+
+{
+    "email": "teste@teste.com.br",
+    "password": "123456789"
+}
+
+###
+
+# Fazer update do Coookie
+# Use o Cookie que foi enviado como resposta no login
+PUT http://localhost:3333/sessions
+Cookie: access_token=
+
+###
+
+# Fazer logout
+# Use o Cookie que foi enviado como resposta no login
+DELETE http://localhost:3333/sessions
+Cookie: access_token=

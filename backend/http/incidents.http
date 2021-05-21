@@ -1,0 +1,44 @@
+# Criei esses requests REST para quem não quiser instalar o Insomnia ou Postman
+# Para utilizar esses arquivos no VSCODE instale o pacote REST Client
+
+# Lista todos os incidentes de produtos criados
+GET http://localhost:3333/users
+
+###
+
+# Cria um produto para o user logado
+# Use o Cookie que foi enviado como resposta no login
+POST http://localhost:3333/users
+Content-Type: application/json
+Cookie: access_token=
+
+{
+	"codigo_promo": "123",
+	"title": "Teste ",
+	"description": "Detalhes do produto",
+	"value": 210
+}
+
+###
+
+# Edita um produto do user logado
+# Use o Cookie que foi enviado como resposta no login
+# Mude o ID ao final da URL
+PUT http://localhost:3333/incidents/1
+Content-Type: application/json
+Cookie:
+
+{
+	"codigo_promo": "123",
+	"title": "Teste ",
+	"description": "Detalhes do produto",
+	"value": 500
+}
+
+###
+
+# Deleta um incident do user logado
+# Use o Cookie que foi enviado como resposta no login
+# Mude o ID ao final da URL
+DELETE http://localhost:3333/incidents/1
+Cookie: access_token=

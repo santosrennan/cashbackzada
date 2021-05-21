@@ -6,10 +6,6 @@ src/database/dev.sqlite
 src/database/test.sqlite
 
 # misc
-.env.local
-.env.development.local
-.env.test.local
-.env.production.local
+
 
 # http
-http
