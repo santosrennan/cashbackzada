@@ -33,11 +33,11 @@
 - [x] Backend usando NodeJs e Express:
   - [x] API usando logger com morgan
   - [x] Testes usando jest
-  - [x] Knex para realizar migrations no SQLITE
+  - [x] Knex para realizar migrations e seeds no SQLITE
   - [x] uso de dotenv
   - [x] criação de um jwt para auth
   - [x] Uso do docker
-  - [x] http com REST requests para rodar no vscode usando o pacote Rest Client
+  - [x] http com REST requests para rodar no vscode usando o pacote Rest Client - facilita o entendimento das rotas do back
   - [x] Adicionado um serviço de email no cadastro, porém necessário configuração de produção
 
 
