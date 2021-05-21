@@ -29,7 +29,7 @@
   - [x] cadastro de um novo revendedor(a) solicitando Nome completo, CPF, e- mail e senha
   - [x] cadastro de compras onde deverá ser informado o código, valor ,descrição e nome
   - [x] listagem das compras cadastradas exibindo as informações  
-  - [x] Designer responsivo
+  - [x] Design responsivo
   - [x] Uso de localstore e cookie para session com jwt
   - [x] Consumo de api 
 
