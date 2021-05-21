@@ -67,9 +67,9 @@ Pelo tempo reduzido para o desafio, ficou uma lista de tarefas a se realizar map
 ### Observações
 
 - Foi criado um dockercompose para colocar a aplicação em container, porém foi verificado que tem uma alta demora para subir o frontend e suas dependencias, cerca de 400 segundos. Isso faz com que, o serviço da porta do container usando docker suba mais rapído do que as dependencias necessária para o react rodar e entrar na porta usando yarn.
-Caso opte o uso com docker, aguarde um tempo pois a porta 3000 subirá apesar da demora, beba um cafézin e acompanhe pelo logg do docker.
+Caso opte o uso com docker, aguarde um tempo pois a porta 3000 subirá apesar da demora, beba um cafézin e acompanhe pelo logg do docker. NESSE PROJETO ESPECIFICAMENTE...
 
-- https://github.com/yarnpkg/yarn/issues/1496  (existe um issue aberta sobre o caso até hoje,com a desativação do antivirus se sugere uma pequena melhora )
+- https://github.com/yarnpkg/yarn/issues/1496  (existe um issue aberta sobre o caso , é algo comum com uso do yarn pelo visto,com a desativação do antivirus se sugere uma pequena melhora no desempenho )
 
 - Recomendo NPM para o back e Yarn para o Front caso rode de maneira individual, em docker ambos usam Yarn via script
 
