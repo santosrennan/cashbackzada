@@ -142,7 +142,7 @@ $ yarn start
 
 ```
 
-#### 🧭 Rodando via Dockercompose as front e backend
+#### 🧭 Rodando via Dockercompose front e backend por container
 
 ```bash
 
